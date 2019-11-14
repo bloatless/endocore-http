@@ -1,0 +1,29 @@
+{
+    "name": "bloatless/endocore-http",
+    "description": "HTTP kernel for the Endocore framework.",
+    "keywords": [
+        "php",
+        "http",
+        "endocore",
+        "bloatless"
+    ],
+    "license": "MIT",
+    "homepage": "https://bloatless.org",
+    "authors": [
+        {
+            "name": "Simon Samtleben",
+            "email": "foo@bloatless.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bloatless\\Endocore\\Http\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
